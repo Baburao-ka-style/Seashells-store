@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/***************************NAVIGATION**************************/
+nav {
+  font-family: Montserrat;
+  background-color: cadetblue;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 25px;
+}
+ul li a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.logo {
+  margin-left: 30px;
+  
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.signup{
+  padding: 5px 10px;
+  border: 1px solid aqua;
+  border-radius: 50px;
+}
+.signup:hover {
+  background-color: rgba(54, 255, 205, 0.808);
+  color: grey;
+  border-radius: 50px;
+}
+
+/***************************HERO-SECTION**************************/
+
+.hero {
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  height: 80vh;
+  background-image: url("seashells.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 61%;
+  overflow: hidden;
+}
+.herodata {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+.prod-btn {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 25px;
+  border-radius: 50px;
+  color: #0396a6;
+}
+.hero-heading-content {
+  background: linear-gradient(
+    to right,
+    rgba(30, 87, 153, 0.14) 0%,
+    rgba(125, 185, 232, 0.02) 100%
+  );
+  padding-left: 3rem;
+}
+.hero-product-btn {
+  padding-left: 1rem;
+}
+.hero-heading-content h1 {
+  font-size: 3rem;
+}
+.hero-heading-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/***************************ABOUT-SECTION**************************/
+
+.aboutus{
+  max-width: 100vw;
+  background-color: #0396a6;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  align-items: center;
+  place-items: center;
+  text-align: center;
+  font-family: Montserrat;
+}
+.aboutus p{
+  font-size: 1.5rem;
+  margin-bottom: 5em;
+  padding: 0 4em;
+}
+.aboutus h2{
+  font-size: 3rem;
+  background: linear-gradient(to right,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%);
+  width: 20vw;
+}
+
+/***************************PRODUCTS-SECTION**************************/
+
+
+
+
